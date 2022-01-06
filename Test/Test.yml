@@ -5,4 +5,4 @@
     - name: check the date on ther server
       command: date
     - name: check the ip on the server
-      commnad: ip add
+      command: ip add
