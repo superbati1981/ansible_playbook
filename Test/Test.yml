@@ -8,6 +8,5 @@
       command: date >> ~/info.txt
     - name: check the ip on the server
       command: ip add >> ~/info.txt
-      
-     - name: show ip
+    - name: show ip
       command: cat ~/info.txt
