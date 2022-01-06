@@ -4,8 +4,8 @@
   tasks:
     - name: create txt file to get date and ip info
       command: touch ~/info.txt
-    - name: check the date on ther server
-      command: date >> ~/info.txt
+    #- name: check the date on ther server
+    #  command: date >> ~/info.txt
     - name: check the ip on the server
       command: ip add >> ~/info.txt
     - name: show ip .
